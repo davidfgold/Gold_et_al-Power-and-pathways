@@ -43,3 +43,11 @@ Note: this experiment was run using high performance computing and cannot easily
     e. recompile WaterPaths by first entering "make clean" then "make borg" into the command line
     f. run the regional defection optimization using the bash script (dryville.sh). Note this will have to be modified for the specific cluster in use
     g. save all output to a local machine
+
+## DU reevaluation
+1. Extract the compressed source files from compuationalExperiment/DUReevaluation/src.zip
+2. copy the TestFiles folder from the regionalDefection directory
+3. upload the Pareto Approximate fronts from each regional defection optimization
+4. compile WaterPaths with "make gcc"
+5. use make_RDM_tables.sh to create tables for each DU SOW (note this will take a significant amount of memory)
+6. peform DU reevaluation using the python_reevaluation.sh bash file (will need to be edited for the cluster being used)

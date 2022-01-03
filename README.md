@@ -49,5 +49,5 @@ Note: this experiment was run using high performance computing and cannot easily
 2. copy the TestFiles folder from the regionalDefection directory
 3. upload the Pareto Approximate fronts from each regional defection optimization
 4. compile WaterPaths with "make gcc"
-5. use make_RDM_tables.sh to create tables for each DU SOW (note this will take a significant amount of memory)
+5. use make_RDM_tables.sh to create tables for each DU SOW (note this method of parallelization may not suit all clusters and final tables will take a significant amount of memory, this may require using a python script similar to reeval.py)
 6. peform DU reevaluation using the python_reevaluation.sh bash file (will need to be edited for the cluster being used)

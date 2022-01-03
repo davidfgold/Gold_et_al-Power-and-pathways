@@ -2,7 +2,7 @@ DATA_DIR=/scratch/dfg42/WaterPaths_Sedento_reevaluation/DU_reeval/
 
 N_REALIZATIONS=1000
 START_RDM=1
-END_RDM=2
+END_RDM=2000
 
 
 for RDM in $(seq $START_RDM 1 $END_RDM)

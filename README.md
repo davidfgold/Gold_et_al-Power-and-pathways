@@ -1,5 +1,6 @@
 # Gold_et_al-Power-and-pathways
-Code and data for Gold et al. (in review)
+Code and data for Gold et al. (2022)
+https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021EF002472
 
 To recreate all figures, run the Python scripts within the code directory.
 Data from Trindade et al., (2020) can be found in the data directory, all results can be found in the results directory.
